@@ -1,4 +1,4 @@
-name: Deploy to GH Pges
+name: Deploy to GH Pages
 
 on:
   push:
@@ -24,7 +24,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm ci
+      # Don't do CI tests! This is NOT your usual Node.js package.
+      # - run: npm ci
       - run: "npm run site:build"
 
       - name: Deploy
