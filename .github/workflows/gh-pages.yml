@@ -24,9 +24,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      # Don't do CI tests! This is NOT your usual Node.js package.
-      # - run: npm ci
-      - run: "npm run site:build"
+      - run: npm ci
+
+      - name: Build site
+        run: "npm run site:build"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
