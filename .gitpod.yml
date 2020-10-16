@@ -1,0 +1,7 @@
+tasks:
+  - init: yarn install
+    command: yarn vuepress dev src --no-clear-screen
+
+ports:
+  - port: 8080
+    onOpen: notify
