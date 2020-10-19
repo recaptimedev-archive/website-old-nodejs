@@ -1,6 +1,6 @@
 module.exports = {
     // Site metadata
-    title: "Recap Time | The Pins Team",
+    title: "Recap Time",
     description: "Recaps, the Medium newsletters, streams and more!",
 
     /*
@@ -12,5 +12,18 @@ module.exports = {
     base: process.env.VUEPRESS_PROD_BUILD_BASE || "/",
 
     // https://vuepress.vuejs.org/plugin/official for list
-    plugins: ['@vuepress/back-to-top']
+    plugins: ['@vuepress/back-to-top'],
+
+    // Theme config
+    themeConfig: {
+        repo: 'RecapTime/recaptime.github.io',
+        editLinks: true,
+
+        locales: {
+            '/': {
+                label: "English",
+                nav: require("./nav/en")
+            }
+        }
+  }
 }
