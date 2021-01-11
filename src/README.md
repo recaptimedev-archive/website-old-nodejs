@@ -12,10 +12,10 @@ footer: Copyright © 2020-present The Pins Team | Website maintained by Andrei J
   </div>
   <div class="feature">
     <h2>No ads, never.</h2>
-    <p>We rely on <a href="https://patreon.com/thepinsteam">Patreon</a>, <a href="https://liberapay.org/thepinsteam">Liberapay</a> and <a href="https://ko-fi.com">Ko-fi</a> to keep our devs happy and keep us afloat.</p>
+    <p>We rely on <a href="https://patreon.com/thepinsteam">Patreon</a>, <a href="https://liberapay.org/thepinsteam">Liberapay</a> and <a href="https://ko-fi.com">Ko-fi</a> to keep our devs happy and keep us afloat. If that's not enough, we might introduce the Telegram way of showing ads (just pick randomly base on context, no trackers).</p>
   </div>
   <div class="feature">
     <h2>Open and transparent</h2>
-    <p>TK</p>
+    <p>Our apps and even the server code is open for everyone should you go self-hosting. Your data is always in control too.</p>
   </div>
 </div>
