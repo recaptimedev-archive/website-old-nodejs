@@ -1,7 +1,14 @@
+image: gitpod/workspace-full
+
 tasks:
   - init: yarn install
-    command: yarn vuepress dev src --no-clear-screen
+    command: yarn dev
 
 ports:
   - port: 8080
     onOpen: notify
+
+vscode:
+  extensions:
+    - eamodio.gitlens
+    - arcanis.vscode-zipfs

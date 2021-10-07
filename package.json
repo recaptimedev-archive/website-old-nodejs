@@ -4,8 +4,10 @@
   "description": "Frontend of the Recap Time app.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "site:dev": "vuepress dev src",
-    "site:build": "vuepress build src"
+    "site:dev": "vuepress dev src --temp ./tmp --no-clear-screen",
+    "site:build": "vuepress build src --dest ./public --temp ./tmp --cache ./.cache ",
+    "build": "yarn site:build",
+    "dev": "yarn site:dev"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,14 @@
   },
   "homepage": "https://github.com/RecapTime/recaptime.github.io#readme",
   "devDependencies": {
+    "@yarnpkg/sdks": "^2.4.2-rc.8"
+  },
+  "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.0",
+    "@vuepress/shared-utils": "^1.8.2",
     "vuepress": "^1.7.0"
+  },
+  "peerDependencies": {
+    "@vue/compiler-sfc": "*"
   }
 }
