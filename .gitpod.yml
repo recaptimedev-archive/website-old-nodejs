@@ -1,7 +1,14 @@
 image: gitpod/workspace-full
 
 tasks:
-  - init: yarn install
+  - name: Dev Server
+    init: |
+      nvm install --lts
+      nvm use --lts
+      nvm alias default --lts
+      nvm install-latest-npm
+      npm i -g yarn
+      yarn install
     command: yarn dev
 
 ports:
