@@ -1,7 +1,7 @@
 module.exports = {
     // Site metadata
-    title: "Recap Time",
-    description: "Recaps, the Medium newsletters, streams and more!",
+    title: "Recap Time | The Pins Team",
+    description: "Recaps, the Medium newsletters, streams, and Community Lores.",
 
     /*
         When forked the website, make sure to define the
@@ -11,19 +11,20 @@ module.exports = {
     */
     base: process.env.VUEPRESS_PROD_BUILD_BASE || "/",
 
-    // https://vuepress.vuejs.org/plugin/official for list
+    // https://vuepress.vuejs.org/plugin/official for list, also you can probably search npmjs
+    // registry for more community-maintained plugins and themes
     plugins: ['@vuepress/back-to-top'],
 
     // Theme config
     themeConfig: {
-        repo: 'RecapTime/recaptime.github.io',
-        editLinks: true,
-
+        repo: "https://gitlab.com/RecapTime/recaptime.gitlab.io",
+        repoLabel: "Site Source",
         locales: {
             '/': {
                 label: "English",
                 nav: require("./nav/en")
             }
-        }
+        },
+        smoothScroll: true
   }
 }

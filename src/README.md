@@ -2,7 +2,7 @@
 home: true
 actionText: Subscribe to our newsletter
 actionLink: https://medium.com/recap-time/newsletters/recap-time
-footer: Copyright © 2020-present The Pins Team | Website maintained by Andrei Jiroh
+footer: Copyright © 2020-present The Pins Team | Website maintained by Recap Time Squad members
 ---
 
 <div class="features">
