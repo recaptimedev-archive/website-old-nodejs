@@ -8,6 +8,11 @@ module.exports = [
     ]
     },
     {
-      text: "GitLab", link: "https://gitlab.com/MadeByThePinsHub/RecapTime"
+      text: "OSS Projects",
+      items: [
+        { text: "GitLab SaaS", link: "https://gitlab.com/RecapTime" },
+        { text: "GitHub mirrors", link: "https://github.com/RecapTime" },
+        { text: "Community Lores", link: "https://community-lores.tk" }
+      ]
     }
 ]
