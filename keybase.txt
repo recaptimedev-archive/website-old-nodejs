@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/recaptime_bridge
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://recaptime.tk
+  * I am recaptime_bridge (https://keybase.io/recaptime_bridge) on keybase.
+  * I have a public key ASBtN5K9qoYybBILY7CCr9j-3gaz1E2Oj5vp0k_IlJC5Kwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206d3792bdaa86326c120b63b082afd8fede06b3d44d8e8f9be9d24fc89490b92b0a",
+      "host": "keybase.io",
+      "kid": "01206d3792bdaa86326c120b63b082afd8fede06b3d44d8e8f9be9d24fc89490b92b0a",
+      "uid": "775da1861a8dd9c605cbe56aa5869019",
+      "username": "recaptime_bridge"
+    },
+    "merkle_root": {
+      "ctime": 1637588654,
+      "hash": "9e141fc774770dd32bc8cc2ecdd335d76ddecd18dcbdcf09946c1177317e83c29bb8bb80042b8fcc8cd4bfc928d5d077a148ffb717665516abfe191bdaf16a97",
+      "hash_meta": "4aef6360b95000300bc647a0a670eac735c83b3e168b2144710a52848a73150a",
+      "seqno": 21277600
+    },
+    "service": {
+      "entropy": "KF3CYhR9kydojz3pVrVn8HkN",
+      "hostname": "recaptime.tk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.0"
+  },
+  "ctime": 1637588706,
+  "expire_in": 504576000,
+  "prev": "f5d640eab654653a13c09593447af8fb8e94c64037ea0b315ac01c2f6d2d5db2",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbTeSvaqGMmwSC2Owgq/Y/t4Gs9RNjo+b6dJPyJSQuSsKp3BheWxvYWTESpcCCcQg9dZA6rZUZToTwJWTRHr4+46UxkA36gsxWsAcL20tXbLEIN9albWIXOZi/BCQT7DU/4N+9tsrmhm0pPcbjnw6Rg6aAgHCo3NpZ8RA82DktMjwYDGOM+9pLA+09eplf5PWw2vKodk4+gUGyuBQ88cErpz5lXNxud8N4v/guSQNtaYQoYuqJjAAnzpxDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPGnIkrPEDcdp89/C/Inveiu8ViH3oDISRT7jra4tzuQo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/recaptime_bridge
+
+==================================================================

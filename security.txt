@@ -1,0 +1,26 @@
+# Our security-related email address
+Contact: mailto:security@recaptime.tk
+
+# GitLab issue tracker for submiting security-related issues via our advisories repo
+Contact: https://gitlab.com/RecapTime/advisories/issues/new
+
+# First published on 2021-11-23T14:05:27+08:00 by @ajhalili2006 on GitHub
+# Last updated on: 2021-11-23T14:05:27+08:00 by @ajhalili2006
+Expires: 2022-12-31T15:59:00.000Z
+
+# Where to get our PGP keys, including our Keybase.io profile
+Encryption: https://handbook.recaptime.tk/directory/pgp-keys
+Encryption: https://keybase.io/thepinsteam
+
+# canonical URL of this file, since we duplicated this contents to src/.vuepress/public/security.txt
+# in the source repository
+Canonical: https://recaptime.tk/.well-known/security.txt
+
+# We only speak English, sorry!
+Preferred-Languages: en
+
+# our security policy in an nutshell
+Policy: https://policy.recaptime.tk/security-policy
+
+# We're not an company yet, but this is nice to have in the future.
+Hiring: https://recaptime.tk/join-squad
