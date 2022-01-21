@@ -1,7 +1,7 @@
 module.exports = {
     // Site metadata
-    title: "Recap Time | The Pins Team",
-    description: "Recaps, the Medium newsletters, streams, and Community Lores.",
+    title: "Recap Time",
+    description: "Community Lores, a lot of bloody projects, and other stuff.",
 
     /*
         When forked the website, make sure to define the

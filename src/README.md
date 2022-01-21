@@ -1,21 +1,21 @@
 ---
 home: true
-actionText: Subscribe to our newsletter
-actionLink: https://medium.com/recap-time/newsletters/recap-time
-footer: Copyright © 2020-present The Pins Team | Website maintained by Recap Time Squad members
+actionText: Explore projects
+actionLink: /projects
+footer: Copyright © 2020-present Recap Time Squad | Website maintained by Recap Time Squad members
 ---
 
 <div class="features">
   <div class="feature">
-    <h2>Made with love by the Pins team</h2>
-    <p>We not only just review. We bring updates and watch the communities we're been watching.</p>
+    <h2>Welcome home.</h2>
+    <p>This is homepage of the Re</p>
   </div>
   <div class="feature">
-    <h2>No ads, never.</h2>
-    <p>We rely on <a href="https://patreon.com/thepinsteam">Patreon</a>, <a href="https://liberapay.org/thepinsteam">Liberapay</a> and <a href="https://ko-fi.com">Ko-fi</a> to keep our devs happy and keep us afloat. If that's not enough, we might introduce the Telegram way of showing ads (just pick randomly base on context, no trackers).</p>
+    <h2>We mostly do open-source stuff here</h2>
+    <p>From the Gitpodified Workspace Images to the Community Lores and beyond, we build and maintain projects under MIT, Apache and MPL, among other OSI-acceptable licenses.</p>
   </div>
   <div class="feature">
-    <h2>Open and transparent</h2>
-    <p>Our apps and even the server code is open for everyone should you go self-hosting. Your data is always in control too.</p>
+    <h2>Our virtual HQ</h2>
+    <p>Most of the work we do are on GitLab through Gitpod and deploys stuff to Railway. We sometimes take notes on Notion.</p>
   </div>
 </div>
