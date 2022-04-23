@@ -13,7 +13,16 @@ module.exports = [
       text: "OSS Projects",
       items: [
         { text: "Gitpodified Workspace Images", link: "https://gitlab.com/gitpodify/gitpodified-workspace-images" },
-        { text: "Community Lores", link: "https://community-lores.tk" }
+        { text: "Community Lores", link: "https://community-lores.gq" }
+      ]
+    },
+    {
+      text: "Other projects",
+      items: [
+        {
+          text: "Community Radar / Community Updates Radio",
+          link: "https://communityradar.bio.link"
+        }
       ]
     }
 ]
