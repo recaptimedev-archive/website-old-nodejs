@@ -1,7 +1,7 @@
 module.exports = {
     // Site metadata
-    title: "Recap Time",
-    description: "Community Lores, a lot of bloody projects, and other stuff.",
+    title: "RecapTime.dev",
+    description: "Community Lores, Community Radar newsletter, some open-source projects, and other stuff.",
 
     /*
         When forked the website, make sure to define the

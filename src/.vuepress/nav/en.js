@@ -5,8 +5,7 @@ module.exports = [
           { text: "GitLab SaaS", link: "https://gitlab.com/RecapTime" },
           { text: "GitHub", link: "https://github.com/RecapTime" },
           { text: "Twitter", link: "https://twitter.com/RecapTime"},
-          { text: "Telegram", link: "https://telegram.dog/RecapTime"},
-          { text: "Medium", link: "https://medium.com/recap-time"}
+          { text: "Anything else in one place", link: "https://recaptime.bio.link"}
     ]
     },
     {
